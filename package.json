@@ -1,0 +1,37 @@
+{
+	"name": "@andersgee/jsone",
+	"author": "andersgee",
+	"description": "json stringify/parse extended",
+	"license": "MIT",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"package.json",
+		"README.md"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andersgee/jsone"
+	},
+	"scripts": {
+		"build": "rm -rf ./dist && tsc",
+		"release": "pnpm run build && changeset publish",
+		"lint": "eslint src --ext .ts"
+	},
+	"imports": {
+		"#src/*": "./dist/*"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2",
+		"@types/eslint": "^8",
+		"@types/node": "^20",
+		"@typescript-eslint/eslint-plugin": "^7",
+		"@typescript-eslint/parser": "^7",
+		"eslint": "^8",
+		"prettier": "^3",
+		"typescript": "^5"
+	}
+}
