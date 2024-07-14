@@ -1,5 +1,11 @@
 # @andersgee/jsone
 
+## 0.0.5
+
+### Patch Changes
+
+- 172cf59: example usage readme
+
 ## 0.0.4
 
 ### Patch Changes
