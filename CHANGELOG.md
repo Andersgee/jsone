@@ -1,5 +1,11 @@
 # @andersgee/jsone
 
+## 0.0.4
+
+### Patch Changes
+
+- 30a003a: add tests
+
 ## 0.0.3
 
 ### Patch Changes
