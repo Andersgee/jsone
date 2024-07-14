@@ -1,5 +1,11 @@
 # @andersgee/jsone
 
+## 0.1.0
+
+### Minor Changes
+
+- aba7221: description and keywords
+
 ## 0.0.5
 
 ### Patch Changes
