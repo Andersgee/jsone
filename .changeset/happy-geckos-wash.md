@@ -1,0 +1,5 @@
+---
+"@andersgee/jsone": patch
+---
+
+init
