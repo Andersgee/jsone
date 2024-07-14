@@ -1,5 +1,0 @@
----
-"@andersgee/jsone": patch
----
-
-init
