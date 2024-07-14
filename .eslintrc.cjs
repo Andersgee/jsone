@@ -2,7 +2,7 @@
 const config = {
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
-		project: true,
+		project: ["tsconfig.json", "tsconfig.eslint.json"],
 	},
 	plugins: ["@typescript-eslint"],
 	extends: ["plugin:@typescript-eslint/recommended-type-checked", "plugin:@typescript-eslint/stylistic-type-checked"],
