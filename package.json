@@ -1,7 +1,15 @@
 {
 	"name": "@andersgee/jsone",
 	"author": "andersgee",
-	"description": "json stringify/parse extended",
+	"description": "json stringify/parse that also handles Date, BigInt, TypedArray",
+	"keywords": [
+		"json",
+		"stringify",
+		"parse",
+		"Date",
+		"BigInt",
+		"TypedArray"
+	],
 	"license": "MIT",
 	"version": "0.0.5",
 	"type": "module",
